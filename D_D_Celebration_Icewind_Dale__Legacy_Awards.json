@@ -1,0 +1,313 @@
+{
+	"siteVersion": "1.137.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "DDCelebrationIcewindDaleLegacyAwards",
+				"abbreviation": "CIDLA",
+				"full": "D&D Celebration Icewind Dale: Legacy Awards",
+				"url": "",
+				"authors": [
+					"Wizards of the Coast"
+				],
+				"convertedBy": [
+					"thebrainbomb"
+				]
+			}
+		],
+		"dateAdded": 1633270301,
+		"dateLastModified": 1633270301
+	},
+	"monster": [
+		{
+			"name": "Gelatinous Ice Cube",
+			"source": "DDCelebrationIcewindDaleLegacyAwards",
+			"size": "T",
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d4 + 8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 14,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"cha": "+2",
+				"int": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this distance)"
+			],
+			"passive": 12,
+			"immune": [],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The gelatinous ice cube can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Aversion of Fire",
+					"entries": [
+						"If the gelatinous ice cube takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage plus 2 ({@damage 1d4}) psychic damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/e0SBlCK.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/vLD1iar.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Chwinga Squidling",
+			"source": "DDCelebrationIcewindDaleLegacyAwards",
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "1d4",
+				"average": 2
+			},
+			"speed": {
+				"walk": 10
+			},
+			"str": 4,
+			"dex": 16,
+			"con": 11,
+			"int": 2,
+			"wis": 8,
+			"cha": 6,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Blood Drain",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage, and the chwinga squidling attaches to the target. While attached, the chwinga squidling doesn't attack. Instead, at the start of each of the chwinga squidling's turns, the target loses 5 ({@damage 1d4 + 3}) hit points due to the blood loss.",
+						"The chwinga squidling can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the chwinga squidling."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/oAoUgxq.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/mIHuw9A.png",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Snowy Owlbear Cub",
+			"source": "DDCelebrationIcewindDaleLegacyAwards",
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d4",
+				"average": 2
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The snowy owlbear cub has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/7I9Qcif.png",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Arctic Stink Squirrel",
+			"source": "DDCelebrationIcewindDaleLegacyAwards",
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4 - 1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 3,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 12,
+			"cha": 3,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The weasel has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Stink Cloud",
+					"entries": [
+						"The arctic stink squirrel can cast {@spell stinking cloud} cloud once per day with a {@dc 11}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/kx4zSzq.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://i.imgur.com/Q8tyeuI.png",
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
